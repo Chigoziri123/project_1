@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Activity 1 </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Mulish:ital,wght@0,200;0,300;1,200&display=swap');
+
+        :root{
+            --main-color:#2b4e5b;
+            --accent-color:#91c8a3;
+            --text-color:#717779;
+            --heading-font: "Poppins";
+            --about-font: "Cedarville Cursive"
+
+
+        }
+       .container{
+            display: grid;
+            grid-template-columns: 5fr 5fr;
+            padding: 10% 5%;
+       }
+
+       .middle{
+            display: grid;
+            grid-template-columns: 5fr 5fr;
+            align-items: center;
+        } 
+        .heading{
+            color:var(--main-color);
+            font-family:var(--heading-font);
+        }
+        .about-us{
+          color:var(--accent-color);
+          font-family:var(--about-font); 
+        }
+       button{
+        padding: 20px 100px;
+        font-family:var(--heading-font);
+        font-size:16px;
+        font-weight:900;
+        background-color: var(--main-color);
+        color: whitesmoke;
+        border-radius:10px;
+        border:0;
+        box-shadow:2px 2px 3px grey;
+        margin-bottom: 50px;
+        }
+        button:hover{
+            background-color: var(--accent-color);
+            color: var(--main-color);
+        }
+        .img.container{
+
+        }
+        p{
+            font-family: var(--text-color);
+            color: var(--text-color);
+            font-weight:400;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <!--Left-hand Side-->
+        <div class="sides">
+           <img src="Assets/Farm_produce-removebg-preview.png" alt=""> 
+        </div>
+            <!--Right-hand Side-->
+        <div class="sides img-container">
+            <!--Top Section-->
+            <div class="detail">
+                <h2 class="about-us">About Us</h2>
+                <h3 class="heading">We Believe in Working Accredited Farmers</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates eligendi voluptatibus commodi. Adipisci porro hic, ex natus illum molestiae, quibusdam neque cupiditate pariatur animi sequi quas. Velit illo ratione, quis cum veritatis tempora, sint repellendus rerum aliquam aliquid repellat eius cupiditate sequi sapiente excepturi, voluptatem exercitationem ad ducimus deleniti.</p>
+            </div>
+            <!--Middle Section-->
+            <div>
+                <!--Middle-First-->
+                <div class="middle middle-top" style="margin-left:;">
+                    <i class="fa-brands fa-twitter"></i>
+                    <div>
+                        <h4>Organic Foods Only</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, adipisci?</p>
+                    </div>
+                </div>
+                
+                <!--Middle-Second-->
+                <div class="middle middle-bottom">
+                    <i class="fa-brands fa-twitter"></i>
+                    <div class="right">
+                        <h4>Quality Standards</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, adipisci?</p>
+                    </div>
+                </div>
+            </div>
+            <!--Last Section-->
+            <div class="button">
+                <button>Shop Now</button>
+            </div>
+        </div>
+
+    
+    </section>
+</body>
+</html>
